@@ -77,8 +77,8 @@ async function getProducts() {
         <div class="productInfo-container">
             <div class='product-name'>${product.productName}</div>
             <div class='product-category'>${product.category}</div>
-            <div class='product-price'>${product.price}</div>
-            <div class='product-quantiy'>${product.quantity}</div>
+            <div class='product-price'>₹. ${product.price} /- </div>
+            <div class='product-quantiy'>Quantity: ${product.quantity}</div>
         </div>
         <div class="icons-container">
         <div class="edit-icon icon" id="editIcon" onclick="startEditing('${product._id}')">
